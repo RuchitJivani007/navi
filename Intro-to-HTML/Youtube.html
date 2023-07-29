@@ -1,0 +1,86 @@
+<!-- html structure -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- for website title -->
+        <title>
+            youtube.com RJ
+        </title>
+
+        <!-- for css -->
+        <style>
+            .thumbnail 
+            {
+                /* 
+                    width: 300px; 
+                    height: 300px;
+                    object-fit: contain;
+                    object-position: right;
+                    border-width: 2px;
+                    border-style: solid;
+                    border-color: red;
+                */
+                width: 300px;
+                display: inline block; /*IN website we can see them in two different line. block & inline block can use to up and down*/
+            }
+
+            .search-bar
+            {
+
+            }
+
+            .video-title
+            {
+                Width: 300px;
+            }
+
+            /* 
+                here by , that two class can design togather.
+            */
+            .video-author, 
+            .video-stats{
+                 display: inline-block; /*In website we can see them in one line. */
+            }
+
+            .video-preview{
+                width: 300px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- 
+            <img> - for put image
+            class - for give name that image
+            src - for give address of that image 
+        -->
+        <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+
+        <!-- 
+            <input> - for box
+            type - for which type of box needed like checkbox or textbox....
+        -->
+        <input class="search-bar" type="textbox" placeholder="search">
+        
+        <!-- 
+            <p> - for puy paragraph
+            <strong> - for make text bold in line
+         -->
+        <p class="video-title">
+            Talking Tech <strong>and AI with</strong>and AI with Google CEO Sundar Pichai!
+        </p>
+        <P class="video-author">
+            Marques Brownlee
+        </P>
+        <p class="video-stats">
+            3.4M views &#183; 6 months ago
+        </p>
+
+        <!-- 
+            <div> - for container means some element of our website put in one box.
+         -->
+        <div class="video-preview">
+
+        </div>
+    </body>
+</html>
